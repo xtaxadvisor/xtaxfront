@@ -1,0 +1,22 @@
+import React from 'react';
+import heroImage from './assets/hero-image.jpg'; // Adjust path as needed
+
+function App() {
+  return (
+    <div
+      style={{
+        backgroundImage: `url(${heroImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '400px',
+        width: '100%',
+      }}
+    >
+      <h1 style={{ color: 'white', textAlign: 'center', paddingTop: '150px' }}>
+        Welcome to My React App
+      </h1>
+    </div>
+  );
+}
+
+export default App;

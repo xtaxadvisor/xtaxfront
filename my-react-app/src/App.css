@@ -1,10 +1,23 @@
+:root {
+  --main-color: #007bff;
+};
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black; /* Fallback color */
+}
+
+h1 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
+/* Logo Styles */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -18,25 +31,11 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Keyframe Animation */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+    transform: rotate(360de);
+  }}
